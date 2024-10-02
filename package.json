@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "wrangler dev src/index.ts",
-  "build": "wrangler build src/index.ts",
-  "deploy": "wrangler deploy --minify src/index.ts"
+  "dev": "wrangler dev",
+  "build": "wrangler build",
+  "deploy": "wrangler deploy"
 },
   "keywords": [],
   "author": "",
