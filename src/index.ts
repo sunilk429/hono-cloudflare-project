@@ -6,7 +6,7 @@ import { cors } from 'hono/cors';
 const app = new Hono();
  
 app.use(cors());
-
+app.get('/', (c) => c.text('Hello Hono!!!'))
 // Error handling middleware
 app.onError((err, c) => {
   console.error('Error:', err)
